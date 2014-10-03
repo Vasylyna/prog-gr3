@@ -1,0 +1,166 @@
+/* Marges */
+
+body, html
+{
+	margin: 0;
+	padding: 0;
+}
+
+#resultats-resume
+{
+	margin-bottom: 15px;
+}
+
+#resultats-resume, #resultats-detail, #side-nav *
+{
+	padding: 0px 5px;
+}
+
+/* Header */
+
+header 
+{
+	height: 60px;
+}
+
+.identifiant {
+	width: 200px;
+	height: 60px;
+	text-align: right;
+	position: relative;
+	float: right;
+}
+
+.identifiant p{
+  line-height: 0px;
+}
+
+.identifiant a{
+  line-height: 0px;
+}
+
+
+#menu-deroulant, #menu-deroulant ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#menu-deroulant {
+    text-align: center;
+}
+#menu-deroulant li {
+    display: inline-block;
+}
+#menu-deroulant ul li {
+    display: inherit;
+}
+#menu-deroulant a {
+    text-decoration: none;
+    display: block;
+	color:#000;
+}
+#menu-deroulant ul {
+    position: absolute;
+    left: -999em;
+    text-align: left;
+}
+#menu-deroulant li:hover ul {
+    left: auto;
+}
+
+.topbar {
+height: 10px;
+background-color: #C8BFB5;
+margin-bottom: 20px;
+width: 100%;
+}
+
+/* Footer */
+
+footer {
+	text-align: center;
+	font-family: 'Open Sans Condensed';
+	background-color: #EBEBEB;
+}
+
+/* Side-nav */
+
+#menu-matieres
+{
+  	disfplay: inline-block;
+	padding: 0px 5px;
+	wifdth: 250px;
+	margin-top: 0px;
+	background-color: #c6d4d7;
+}
+
+#side-nav
+{
+	background-color: #c8bfb5;
+}
+
+#side-nav li
+{
+	list-style-type: none;
+}
+
+/* Page évaluation */
+
+#evaluation
+{
+	width: 660px;
+	padding: 0px 5px;
+	display: table-cell;
+	background-color: #f9a11b;
+	
+}
+
+/* Résultats */
+
+#resultats-resume, #resultats-detail
+{
+	border: 1px solid #C8BFB5;
+}
+
+
+
+/* Polices */
+
+@font-face {
+	  font-family: 'De Vinne roman'; src:url('De_Vinne.ttf');
+	  }
+@font-face {	  font-family: 'PT Sans';
+}
+@font-face {	  font-family: 'Open Sans Condensed';
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	color:#222222;
+	font-family: 'Open Sans Condensed',sans-serif;
+}
+
+h1 {
+  /*line-height: 0px; => margin: 0px? */
+  margin-left: 20px;
+  font-family: 'De Vinne roman';
+  color: #f9a11b;
+
+}
+
+p, #side-nav, #commentaires_textuels, #menu-matieres, #commentaires, #bouton
+{
+	font-family: inherit;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.6;
+	margin-bottom: 17px;
+}
+
+/* Images */
+
+#commentaires-quantitatifs img
+{
+	height: 18px;
+	width: 18px;
+}
